@@ -2,7 +2,7 @@
 
 SERVICE_NAME="wg-quick-service"
 DESCRIPTION="启动 WireGuard 配置"
-COMMAND="sudo wg-quick up ./wghub.conf"
+COMMAND="/usr/bin/wg-quick up /home/ubuntu/wghub.conf"
 USER="ubuntu"
 
 echo "[Unit]
